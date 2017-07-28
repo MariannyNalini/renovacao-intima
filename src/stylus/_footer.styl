@@ -1,0 +1,123 @@
+#footer
+	col(1/1)
+	padding 20px
+	background #57b1a8
+	.footer-content
+		padding 5px 20px 5px 50px
+		+mobile()
+			padding 0
+			text-align center
+		background #84c6c0
+		p
+			padding 10px 0
+			color #FFF
+			font-size 12px
+			letter-spacing 1px
+			display inline-block
+		form
+			+mobile()
+				margin-top 20px
+				float none
+			float right
+			input[type=text]
+				height 32px
+				width 300px
+				+mobile()
+					width 100%
+				border 0
+				border-left solid 8px #c6a45a
+				padding-left 20px
+				color #c09e53
+			button
+				+mobile()
+					margin-top 20px
+				background #c6a45a
+				border 0
+				height 32px
+				color #fff
+				padding 0 10px
+				font-size 12px
+				letter-spacing 1px
+				text-transform uppercase
+				
+#footer-social
+	padding-top 20px
+	background url(images/general/dot.png) repeat-x center center
+	margin-bottom 20px
+	ul
+		background #57b1a8
+		display table
+		margin 0 auto
+		padding 10px 15px
+		border solid 1px #57b1a8
+		color #57b1a8
+		text-transform uppercase
+		letter_spacing()
+		font-size 12px
+		li
+			display inline-block
+			margin 0 10px
+			+mobile()
+				margin 0 5px
+			a
+				width 24px
+				height 24px
+			.ico
+				background url(images/general/sprite-social-white.png) no-repeat
+				text-indent -9999px
+				color transparent
+				display block
+			.ico-facebook
+				background-position 0 0
+			.ico-instagram
+				background-position -31px 0
+			.ico-youtube
+				width 44px
+				background-position -60px 0
+			.ico-snapchat
+				background-position -110px 0
+			.ico-twitter
+				background-position -141px 0
+			.ico-pinterest
+				background-position -171px 0
+			.ico-spotify
+				background-position -201px 0
+#sitemap
+	margin-top 40px
+	+mobile()
+		display none
+	h2
+		col(1/5)
+		span
+			background #FFF
+			margin 0 auto
+			display block
+			padding 20px 20px
+			text-align center
+			border solid 1px #57b1a8
+			color #57b1a8
+			text-transform uppercase
+			letter-spacing 1px
+			font-size 12px
+	ul
+		col(4/5)
+		li
+			col(1/4, cycle: 4)
+			margin-bottom 20px
+			a
+				color #57b1a8
+				letter_spacing()
+				text-transform uppercase
+				text-decoration none
+				font-size 12px
+#logo_footer
+	padding-top 20px
+	h2
+		background url(images/general/dot.png) repeat-x center center
+		margin-bottom 20px
+		img
+			width 300px
+			background #FFF
+			display table
+			margin 0 auto
+			padding 10px 40px

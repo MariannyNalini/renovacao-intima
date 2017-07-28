@@ -1,0 +1,64 @@
+@import 'jeet'
+@import 'nib'
+@import '_mixins'
+@import '_header'
+@import '_slider'
+@import '_menu'
+@import '_highlights'
+@import '_footer'
+
+html, body
+  height 100%
+
+global-reset()
+
+*
+  box-sizing border-box
+  outline 0
+  
+.clear
+.row
+  clear both
+
+body
+  background #fff
+  overflow-x hidden  
+
+.container
+	center(1400px)
+
+a
+input[type=text]
+h2
+h3
+p
+span
+div
+	font-family "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
+	font-style normal
+	font-variant normal
+
+::-webkit-input-placeholder 
+	font-family "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
+	font-style normal
+	font-variant normal
+:-moz-placeholder
+	font-family "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
+	font-style normal
+	font-variant normal
+::-moz-placeholder
+	font-family "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
+	font-style normal
+	font-variant normal
+:-ms-input-placeholder
+	font-family "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
+	font-style normal
+	font-variant normal
+	
+
+.readmore{
+	padding 10px 0
+	background url(/images/general/readmore.png) no-repeat center center
+	display block
+	text-indent -9999px
+}

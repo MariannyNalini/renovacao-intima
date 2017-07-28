@@ -1,0 +1,46 @@
+#highlights
+	margin-top 20px
+	col(2/3, gutter: 5)
+	+mobile()
+		col(1/1)
+	h2
+		background url(/images/general/dot.png) repeat-x center center
+		margin-bottom 20px
+		span
+			background #FFF
+			display table
+			margin 0 auto
+			padding 10px 15px
+			border solid 1px #57b1a8
+			color #57b1a8
+			text-transform uppercase
+			letter_spacing()
+			font-size 12px
+	ul
+		li
+			col(1/3, cycle: 3, gutter: 7)
+			+mobile()
+				col(1/2, uncycle: 3, cycle: 2)
+			margin-bottom 5%
+			img
+				width 100%
+			h3
+				margin-top 5px
+				text-transform uppercase
+				color #57b1a8
+				letter_spacing()
+				+mobile()
+					padding 0 5px
+					font-size 12px
+
+#sidebar_ads
+	margin-top 20px
+	col(1/3, gutter: 5)
+	+mobile()
+		col(1/1)
+		margin-bottom 20px
+	li
+		margin-bottom 5px
+		col(1/1, cycle: 1)
+		&:last-child
+			margin-bottom 0
